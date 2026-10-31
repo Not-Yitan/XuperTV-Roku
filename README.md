@@ -2,8 +2,6 @@
 
 Canal para Roku (BrightScript + SceneGraph) que usa el mismo servidor que la versión de Samsung.
 
-**Créditos:** basado en el port de webOS de **CristianDev**, que autorizó su uso y modificación. Proyecto no oficial, sin relación con Xuper TV ni con Roku. No incluye contenido audiovisual.
-
 ## Cómo funciona
 
 Roku no ejecuta HTML ni Node, así que la interfaz está reescrita desde cero y todo lo demás lo hace el servidor:
