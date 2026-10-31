@@ -29,6 +29,12 @@ sudo apt install zip curl
 
 O sube el zip a mano en `http://IP_DEL_ROKU` (usuario `rokudev`).
 
+## Instalar desde Windows
+
+Con el modo desarrollador ya activado (paso 2): descarga el repo (Code → Download ZIP), extráelo y haz doble clic en **`INSTALAR-ROKU.bat`**. Pide la IP y la clave del Roku, empaqueta el canal con `tar` y lo instala con `curl`; ambos vienen en Windows 10 (1803 o más nuevo) y Windows 11. El `.bat` **no está probado en un Windows real**.
+
+También sirve subir el zip a mano en `http://IP_DEL_ROKU` (usuario `rokudev`), pero créalo con `tar -a -cf xupertv.zip manifest source components images`. La opción "Enviar a → Carpeta comprimida" de Windows puede dejar rutas que el Roku rechaza.
+
 ## 4. Primer uso
 
 Al abrir el canal pide la dirección del servidor: `http://IP_DEL_PC:8910`. Se guarda en el Roku y se cambia desde el menú **Servidor**.
